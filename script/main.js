@@ -417,6 +417,8 @@ const animationTimeline = () => {
   replyBtn.addEventListener('click', () => {
     tl.restart();
   });
+
+  document.getElementById('hbdsong').play();
 };
 
 // Run fetch and animation in sequence
